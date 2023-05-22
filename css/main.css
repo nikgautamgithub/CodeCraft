@@ -621,7 +621,16 @@ section{
 @media screen and (min-width: 992px){
     .navbar{
         background: transparent;
-        margin-top: 1.4rem;
+        padding-top: 1.4rem;
+    }
+    .nav-colored { 
+        background-color: rgb(0,0,0,75%); 
+        padding-top: .2rem;
+        transition: var(--transition);
+    }
+    .nav-transparent { 
+        background-color:transparent;
+        transition: all 1s ease-in-out;
     }
     .navbar .container{
         display: flex;
